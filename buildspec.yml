@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo 'Building Go App............'
+      - echo 'Dummy Go Build Stage'
+
+artifacts:
+  files: '**/*'
